@@ -1,3 +1,3 @@
-<div>
-    {{-- Nothing in the world is as soft and yielding as water. --}}
-</div>
+<main class="bg-gray-200 min-h-52 w-3/6 mt-3 rounded-md ">
+    
+</main>

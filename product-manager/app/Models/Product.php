@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class Product extends Model
 {
     use HasFactory;
+    protected $table = 'products';
 
     protected $fillable = [
         'name',
@@ -18,8 +19,8 @@ class Product extends Model
         'category_id'
     ];
 
-    public function category(): HasOne
+    public function category()
     {
-        return $this->hasOne(Category::class);
+        return $this->belongsTo(Category::class, 'category_id');
     }
 }
