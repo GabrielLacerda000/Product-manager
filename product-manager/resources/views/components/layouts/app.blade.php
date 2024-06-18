@@ -7,9 +7,7 @@
         <title>{{ $title ?? 'Page Title' }}</title>
     </head>
     <body>
-        <div class="bg-slate-400 flex justify-center items-center h-10 2-full">
-            <p class="text-center">Olá livewire</p>
-        </div>
+        <livewire:navbar />
         <section class="flex justify-center items-center max-auto">
             {{ $slot }}
         </section>        
