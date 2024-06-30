@@ -10,7 +10,7 @@
 <body>
     @section('navbar')
 
-    <div class="h-full w-full mx-auto">
+    <div class="h-full w-full mx-auto text-white">
         @yield('content')
     </div>
 </body>

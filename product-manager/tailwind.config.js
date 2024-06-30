@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      notoSans: ['Noto Sans', 'sans-serif']
+    }
   },
   plugins: [],
 }
